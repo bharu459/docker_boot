@@ -1,4 +1,4 @@
-FROM javatechy/openjdk-8-slim
+FROM CircleCI-Public/example-images
 
 MAINTAINER Deepak Kumar <deepak.kumar.iet@gmail.com>
 
