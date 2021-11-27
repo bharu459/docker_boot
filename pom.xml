@@ -81,11 +81,11 @@
 					<dockerFileDir>src/main/docker</dockerFileDir>
 					<images>
 						<image>
-							<name>${docker.registry}/dockboot:${project.version}</name>
+							<name>${docker.registry}/CircleCI-Public:${example-images}</name>
 							<build>
 								<dockerFileDir>${project.basedir}/src/main/docker</dockerFileDir>
 								<tags>
-									<tag>${project.version}</tag>
+									<tag>${example-images}</tag>
 									<tag>latest</tag>
 								</tags>
 
