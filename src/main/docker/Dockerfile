@@ -3,7 +3,7 @@ FROM CircleCI-Public/example-images
 MAINTAINER bharu459@gmail.com
 
 ENV ENV_NAME local
-ENV BOOTAPP_JAVA_OPTS -Xms256m -Xmx256m
+
 
 ENV BOOTAPP_USR="root" BOOTAPP_GROUP="root" BOOTAPP_PATH="/app.jar"
 
